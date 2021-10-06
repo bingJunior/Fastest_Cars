@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="carModel"
+            type="com.bingjunior.fastestcars.CarModel" />
+    </data>
+
+    <ScrollView xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        tools:ignore="RtlHardcoded">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/car_detail_name_margin_top"
+                android:layout_marginBottom="0dp"
+                android:text="@{carModel.name}" />
+
+            <ImageView
+                android:id="@+id/car_image"
+                imageResource="@{carModel.imageResId}"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/car_detail_image_size"
+                android:layout_marginTop="@dimen/car_detail_image_margin_vertical"
+                android:layout_marginBottom="@dimen/car_detail_image_margin_vertical"
+                android:adjustViewBounds="true"
+                android:contentDescription="@null"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/description"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/car_detail_description_margin_left"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="@dimen/car_detail_description_margin_right"
+                android:layout_marginBottom="@dimen/car_detail_description_margin_bottom"
+                android:autoLink="web"
+                android:text="@{carModel.text}" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</layout>

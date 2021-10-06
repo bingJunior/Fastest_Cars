@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="images">
+        <item>@drawable/bugattichiron</item>
+        <item>@drawable/bugattiveyron</item>
+        <item>@drawable/hennesseyvenomf5</item>
+        <item>@drawable/hennesseyvenomgt</item>
+        <item>@drawable/koenigseggagerars</item>
+        <item>@drawable/ssctuatara</item>
+    </array>
+
+    <string-array name="names">
+        <item>Bugatti Chiron</item>
+        <item>Bugatti Veyron</item>
+        <item>Hennessey Venom F5</item>
+        <item>Hennessey Venom GT</item>
+        <item>Koenigsegg Agera RS</item>
+        <item>SSC Tuatara</item>
+    </string-array>
+
+    <string-array name="descriptions">
+        <item>In August 2019, Bugatti topped the formerly reigning Hennessey Venom F5. Not only that, but the Chiron Super Sport 300+ also became the first car to break 300 miles per hour on the track. The final record was 304.773 mph</item>
+        <item>Bugatti dominated the world’s fastest category. Unlike its upstart rivals, Bugatti benefitted from the massive cash reserves of its parent company, Volkswagen. </item>
+        <item>Hennessey Performance Engineering previously owned the top spot of this list with its Venom F5. The successor to the record-setting Venom GT, the F5 has a theoretical and claimed top speed of 301 mph, besting the next fastest car by a solid margin. </item>
+        <item>The Hennessey Venom GT came out of nowhere to topple the mighty Bugatti Veyron. In 2014, Hennessey revealed a Lotus-based Frankenstein supercar with a 7.0-liter twin-turbo V8 and 1,244 horsepower. </item>
+        <item>TKoenigsegg Agera RS. Until Bugatti’s Chiron Super Sport 300+ had blown through the 300 mph barrier, Koenigsegg and its Agera RS wore the proven VMAX crown with an average top speed of 278 mph.</item>
+        <item>Last we heard from SSC, its monstrous Tuatara carried a top speed of 300 mph, up from the original figure of 265 mph when the vehicle was officially unveiled. With a 5.9-liter twin-turbocharged V8 engine capable of putting down 1,750 horsepower when running on E85 fuel, there was no reason to believe that 300 mph wasn’t possible. </item>
+    </string-array>
+
+   <string-array name="urls">
+        <item>https://www.themanual.com/</item>
+        <item>https://www.themanual.com/</item>
+        <item>https://www.themanual.com/</item>
+        <item>https://www.themanual.com/</item>
+        <item>https://www.themanual.com/</item>
+        <item>https://www.themanual.com/</item>
+    </string-array>
+</resources>
